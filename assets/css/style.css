@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 30px 40px;
+    background-color: rgba(80, 76, 76, 0.281);
+    font-size: 180%;
+    text-decoration: line-through;
+}
+nav img{
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    z-index: 1;
+    width: 180px;
+    height: 180px;
+
+}
+.menu-desktop{
+    margin: 0;
+    padding: 0%;
+    text-align: right;
+}
+.menu-desktop li{
+    list-style: none;
+    display: inline;
+}
+.menu-desktop li a{
+    padding: 30px 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-right: -3px;
+    font-size: 80%;
+    letter-spacing: 0.60;
+
+}
+.menu-desktop li a:hover{
+    background-color: brown;
+}
+.field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#title h1 {
+    font-size: 3em;
+    border-bottom: 2px #ccc solid;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 30px;
+}
+
+.home p {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+#sobre,
+#contact,
+.inputs,
+.contact-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 220px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"] {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: chocolate;
+    color: #ffffff;
+}
+
+.contact-container p {
+    text-align: center;
+}
+
+footer {
+    color: gray;
+    background-color: #ffffff;
+    font-size: .8em;
+}
+
+footer .container {
+    display: flex;
+    width: 100%;
+}
+
+footer .menu ul li a {
+    color: rgb(95, 93, 93);
+}
+
+footer .nav .menu {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+footer .container .menu {
+    display: flex;
+    justify-content: flex-end;
+}
+header{
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 100px;
+    background-image: url(../img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 600%;
+    color:white;
+    text-align: center;
+    padding: 10%;
+    text-shadow: 10px 10px 10px #000000d2;
+}
